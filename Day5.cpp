@@ -1,4 +1,8 @@
 // Day 5 :  Find Next Permutation of an array.
+// S1 : Find the pivot index. eg : [1,2 ,3] here pivot index is 1 and pivot element is 2.(pivot element is those a[i]<a[i+1] from backward.)
+// S2 : if pivot not found tha mens its is last permutation . eg : [3,2,1] then its next permutation is its reverse .
+// S3 : Find rightmost elemnet greater than pivot element and swap with pivot. eg : [1,2,3] becomes [1,3,2];
+// S4 : Reverse the array after pivot index to the end .
 
 #include<bits/stdc++.h>
 using namespace std;
